@@ -1,0 +1,277 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    border: red 3px solid;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+    border: green 3px solid;
+}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+}
+
+.header_topline {
+    background-color: #43484c;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.header_topline a {
+    color: #fff;
+}
+
+.auth_buttons,
+.main_mnu_button {
+    background-color: transparent;
+    border: medium none;
+    font-size: 26px;
+}
+
+.main_mnu_button {
+    color: #fff;
+    padding: 8px 15px 11px;
+}
+
+.top_links {
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+.top_links a {
+    text-decoration: underline;
+}
+
+.top_links a:hover {
+    text-decoration: none;
+}
+
+.soc_buttons {
+    float: right;
+}
+
+.soc_buttons > a {
+    font-size: 26px;
+    margin-left: 16px;
+}
+
+.top_header {
+    background-color: #4AAAD2;
+}
+
+.logo {
+    font-family: "NautilusPompiliusRegular";
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+}
+
+.main_mnu {
+    background-color: #3797bf;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.main_mnu a {
+    color: #fff;
+    padding: 17px 15px;
+    display: block;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.main_mnu a:hover {
+    background-color: #3797A2;
+}
+
+.main_mnu ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+.main_mnu ul li {
+    display: inline-block;
+}
+
+.top_contacts {
+    float: right;
+    font-size: 32px;
+    padding: 2px 17px;
+    background-color: #3797A2;
+    line-height: 53px;
+}
+
+.main_mnu ul {
+    z-index: 12;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "RobotoCondensedLight";
+}
+
+.slider_container {
+    position: relative;
+}
+
+.slider_container img {
+    max-width: 100%;
+}
+
+.next_button,
+.prev_button {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10em;
+    padding: 0 25px;
+
+}
+
+.next_button {
+    right: 20px;
+}
+
+.prev_button {
+    left: 20px;
+}
+
+section.order {
+    background-color: #eee;
+    padding: 25px 0;
+}
+
+.sell_description {
+    font-size: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.sell_right {
+    float: right;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: #2bc6a4;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #4feac8;
+}
+
+.button:active {
+    background-color: #14af8d;
+}
+
+.hidden {
+    display: none;
+}
+
+.pop_form h3 {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-family: "RobotoCondensedBold";
+    text-transform: uppercase;
+}
+
+.pop_form input[type=text] {
+    display: block;
+    width: 90%;
+    line-height: 24px;
+    margin: 0 auto 12px;
+    border: #999 3px solid;
+}
+
+.pop_form .button {
+    margin: 15px auto 0;
+}
+
+section.main_content{
+    margin-bottom:30px;
+}
+
+.blog_item img {
+    max-width: 100%;
+}
+
+.blog_item h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "RobotoCondensedRegular";
+    margin-bottom: 10px;
+}
+
+.blog_item h3 a {
+    text-decoration: underline;
+}
+
+.blog_item p {
+    font-size: 20px;
+
+    margin-top: 0;
+}
+
+.right_aside{
+    padding:15px 20px;
+    margin-top: 30px;
+    background-color: #eee;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;:;
+}
+
+footer{
+    background-color: #43484C;
+    text-align: center;
+    color: white;
+}
