@@ -1,0 +1,24 @@
+
+.services{
+
+  background: white;
+  text-align: center;
+  padding: 100px 0;
+
+
+  .col-service{
+    padding-bottom: 20px;
+
+    .img-service{
+      display: block;
+      margin:20px auto 30px auto;
+      width: 80px;
+      height: auto;
+    }
+
+    h4{
+      font-size: 22px;
+
+    }
+  }
+}
