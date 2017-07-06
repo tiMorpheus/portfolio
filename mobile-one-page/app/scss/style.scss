@@ -1,0 +1,22 @@
+
+body{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #696f6f;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: black;
+}
+
+@import "variables";
+@import "sections/component/tooltip";
+@import "sections/side-nav";
+@import "sections/jumbotron";
+@import "sections/services";
+@import "sections/features";
+@import "sections/subscribe";
+@import "sections/footer";
+
+
+@import "sections/sign/sign-in-up";

@@ -1,0 +1,56 @@
+
+
+.side-nav{
+  position: fixed;
+  top: 45%;
+  right: 20px;
+
+  z-index: 1030;
+
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+
+  ul{
+
+    &.nav-side-nav{
+      text-align: center;
+      letter-spacing: normal;
+      margin: 0;
+      padding-left: 0;
+
+
+      > li {
+
+        display: block;
+        line-height: 1.428571429;
+        margin: 0;
+        padding: 8px 0;
+
+        > a{
+          display: block;
+
+          width:10px;
+          height:10px;
+
+          border-radius: 50%;
+          background: #e2e2e2;
+
+
+          &:hover,
+          &:focus{
+            background: #b1b1b1;
+            text-decoration: none;
+          }
+
+        }
+
+      }
+
+
+    }
+
+  }
+
+
+}

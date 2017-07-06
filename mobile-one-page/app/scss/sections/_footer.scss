@@ -1,0 +1,124 @@
+
+.footer {
+  background: white;
+  text-align: left;
+
+  padding: 60px 0;
+
+  @media screen and (max-width: 800px) {
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+.col-footer {
+  @media screen and (max-width: 800px) {
+    &.col-padding {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+
+  .fa {
+    &.fa-heart {
+      color: #fd487d;
+    }
+  }
+}
+
+.social-media-links {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 3px;
+  }
+
+  a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.82857;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+    }
+
+    &.tw {
+      background: #53c3ee;
+
+      &:hover,
+      &:focus {
+        background: #3d81a3;
+      }
+    }
+
+    &.fb {
+      background: #5975b1;
+
+      &:hover,
+      &:focus {
+        background: #3d81a3;
+      }
+    }
+
+    &.pn {
+      background: #d54e55;
+
+      &:hover,
+      &:focus {
+        background: #8d393e;
+      }
+    }
+  }
+}
+
+.addthis_default_style{
+  text-align: left;
+
+  @media screen and (max-width: 800px){
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &:first-child{
+      margin-left: -2px;
+    }
+  }
+
+
+  a{
+    display: block;
+
+    &.addthis_button_facebook_like{
+      position: relative;
+
+    }
+
+    &.addthis_button_tweet{
+      width: 80px !important;
+    }
+
+  }
+
+
+}
