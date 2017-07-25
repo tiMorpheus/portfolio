@@ -1,0 +1,21 @@
+{
+  "name": "dirtydogs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tymur"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tiMorpheus/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^7.0.0",
+    "components-font-awesome": "^4.7.0"
+  }
+}
