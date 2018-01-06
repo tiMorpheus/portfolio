@@ -1,0 +1,91 @@
+@import "../../libs/bourbon/app/assets/stylesheets/bourbon"
+
+$color: #0f25ff
+//Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+$bg_dark: #dddddd
+
+@mixin kerning($kerning)
+  letter-spacing: $kerning + px
+
+
+
+body
+
+  color: $main_color
+  +kerning(1)
+
+a
+  color: $color
+
+p,
+body .footer
+  color: $text_color
+
+.color_element
+  color: $color
+.color_bg
+  background-color: $color
+.color_border
+  border-color: $color
+.main-color-bg
+  background-color: $main_color
+
+.bg-light
+  background-color: $bg_light
+.bg-dark
+  background-color: $main_color
+  color: white
+  .section-description::after
+    background-color: white
+.bg-white
+  background-color: #fff
+
+svg
+  path
+    fill: white
+
+.toggle-menu
+  background-color: black
+
+.top-menu
+  .menu-list
+    a
+      color: $color
+      font-weight: 600
+
+    li:hover
+      a
+        color: lighten($color, 10%)
+
+.resume-item
+  .year
+    background-color: $color
+    color: white
+
+.section-portfolio
+  li
+    color: $text_color
+  li.active
+    color: #fff
+    border-bottom: 1px solid $color
+
+  .portfolio-item
+    a
+      border-color: $color
+
+.contact-item
+  i
+    color: $color
+
+.main-form
+  button
+    background-color: $color
+
+  .form-group
+    .text-danger
+      color: $color
+    .color-element
+      color: $color
