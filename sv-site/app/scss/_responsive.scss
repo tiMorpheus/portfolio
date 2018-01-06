@@ -1,0 +1,38 @@
+@media (min-width: 992px){
+  .col-md-offset-1 {
+    margin-left: 4.333333%;
+  }
+}
+
+
+@media (min-width: 320px ) {
+
+  body{
+    padding: 0;
+  }
+
+  .sidebar-container {
+
+
+    img{
+      padding-left:10px;
+    }
+    .row{
+      padding: 40px;
+    }
+
+    h2 {
+
+      font-size: 7px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+

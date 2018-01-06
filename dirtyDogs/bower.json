@@ -17,5 +17,8 @@
   "dependencies": {
     "normalize-css": "^7.0.0",
     "components-font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
