@@ -1,0 +1,21 @@
+{
+  "name": "axe-landing",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tiMorpheus <timur10645@icloud.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tiMorpheus/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reset-css": "^2.2.1",
+    "font-awesome": "^4.7.0"
+  }
+}
