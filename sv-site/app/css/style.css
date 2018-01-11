@@ -198,3 +198,8 @@ p {
     margin-bottom: 10px; }
   .sidebar-container li {
     margin-bottom: 10px; } }
+
+@media (max-width: 500px) {
+  .container {
+    margin: 0;
+    padding: 0; } }
