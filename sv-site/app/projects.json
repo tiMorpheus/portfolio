@@ -1,0 +1,52 @@
+{
+
+  "projects": [{
+
+    "id": 1,
+    "title": "om landing",
+    "link": "https://timorpheus.github.io/portfolio/mobile-one-page/app/",
+    "description": "responsive mobile-app startup template"
+  },{
+
+    "id": 2,
+    "title": "developer landing",
+    "link": "https://timorpheus.github.io/portfolio/mobile-one-page/app/",
+    "description": "responsive developer-cv template"
+  },{
+
+    "id": 3,
+    "title": "startup landing",
+    "link": "https://timorpheus.github.io/portfolio/sturtup-landing/app/",
+    "description": "responsive template"
+  },{
+
+    "id": 4,
+    "title": "abra software website",
+    "link": "https://timorpheus.github.io/portfolio/abra-software/app/",
+    "description": "simple landing"
+  },{
+
+    "id": 5,
+    "title": "dirty dogs",
+    "link": "https://timorpheus.github.io/portfolio/dirtyDogs/app",
+    "description": "test task, responsive hot dog landing"
+  }, {
+
+      "id": 6,
+      "title": "grid css tutorial",
+      "link": "https://timorpheus.github.io/portfolio/gridcss-tutorial/app/",
+      "description": "responsive build on gridcss template"
+  },{
+
+    "id": 7,
+    "title": "Tmp landing",
+    "link": "https://timorpheus.github.io/portfolio/template_bootstrap/timurto_dev_landing/",
+    "description": "simple web item"
+  }
+
+
+
+  ]
+
+
+}

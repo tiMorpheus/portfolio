@@ -30,7 +30,12 @@ a:focus {
   text-decoration: none; }
 
 p {
+  font-size: 18px;
   line-height: 1.5; }
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .row {
   margin-right: 0;
@@ -105,7 +110,7 @@ p {
     margin-bottom: 60px; }
     .main-wrapper .main-section h2 {
       color: #054362;
-      font-size: 25px;
+      font-size: 26px;
       font-weight: 500;
       margin-top: 0;
       margin-bottom: 20px; }
@@ -144,6 +149,17 @@ p {
       margin-bottom: 10px; }
   .main-wrapper .projects .intro {
     margin-bottom: 30px; }
+  .main-wrapper .projects .load-test {
+    border: none;
+    background-color: #054362;
+    color: white;
+    outline: none;
+    width: 150px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: all ease 1s; }
+    .main-wrapper .projects .load-test:hover {
+      background-color: #032231; }
   .main-wrapper .projects .item {
     margin-bottom: 15px; }
   .main-wrapper .projects a {
