@@ -122,7 +122,6 @@ a {
   border-top: 35px solid #AB8BA0; }
 
 .wrap {
-  margin-top: 50px;
   min-width: 1200px;
   background-image: url("../img/background.jpg");
   -webkit-background-size: cover;

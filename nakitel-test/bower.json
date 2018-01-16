@@ -1,0 +1,24 @@
+{
+  "name": "nakitel-test",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tymur Tolochko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tiMorpheus/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "reset-css": "^2.2.1",
+    "css-hamburgers": "^0.9.1",
+    "slick-carousel": "^1.8.1",
+    "jquery": "^3.2.1"
+  }
+}
