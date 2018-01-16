@@ -9,11 +9,12 @@ $(document).ready(function ($) {
     });
 
 
+
+
     $('.banner-carousel').slick({
         autoplay: true,
         arrows: false,
-        dots: true,
-
+        dots: true
     });
 
 });
