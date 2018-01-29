@@ -10,7 +10,6 @@ $(document).ready(function() {
         $(this).addClass("active");
     });
 
-    $(".popup").magnificPopup({type:"image"});
 
     $(".popup-content").magnificPopup({
         type:"inline",
