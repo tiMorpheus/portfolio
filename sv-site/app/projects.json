@@ -1,52 +1,64 @@
 {
-
-  "projects": [{
-
-    "id": 1,
-    "title": "om landing",
-    "link": "https://timorpheus.github.io/portfolio/mobile-one-page/app/",
-    "description": "responsive mobile-app startup template"
-  },{
-
-    "id": 2,
-    "title": "developer landing",
-    "link": "https://timorpheus.github.io/portfolio/wordpress-landing/app/",
-    "description": "responsive developer-cv template"
-  },{
-
-    "id": 3,
-    "title": "startup landing",
-    "link": "https://timorpheus.github.io/portfolio/sturtup-landing/app/",
-    "description": "responsive template"
-  },{
-
-    "id": 4,
-    "title": "abra software website",
-    "link": "https://timorpheus.github.io/portfolio/abra-software/app/",
-    "description": "simple landing"
-  },{
-
-    "id": 5,
-    "title": "dirty dogs",
-    "link": "https://timorpheus.github.io/portfolio/dirtyDogs/app",
-    "description": "test task, responsive hot dog landing"
-  }, {
-
+  "projects": [
+    {
+      "id": 1,
+      "title": "om landing",
+      "link": "https://timorpheus.github.io/portfolio/mobile-one-page/app/",
+      "description": "responsive mobile-app startup template"
+    },
+    {
+      "id": 2,
+      "title": "developer landing",
+      "link": "https://timorpheus.github.io/portfolio/wordpress-landing/app/",
+      "description": "responsive developer-cv template"
+    },
+    {
+      "id": 3,
+      "title": "startup landing",
+      "link": "https://timorpheus.github.io/portfolio/sturtup-landing/app/",
+      "description": "responsive template"
+    },
+    {
+      "id": 4,
+      "title": "abra software website",
+      "link": "https://timorpheus.github.io/portfolio/abra-software/app/",
+      "description": "simple landing"
+    },
+    {
+      "id": 5,
+      "title": "dirty dogs",
+      "link": "https://timorpheus.github.io/portfolio/dirtyDogs/app",
+      "description": "test task, responsive hot dog landing"
+    },
+    {
       "id": 6,
       "title": "grid css tutorial",
       "link": "https://timorpheus.github.io/portfolio/gridcss-tutorial/app/",
       "description": "responsive build on gridcss template"
-  },{
-
-    "id": 7,
-    "title": "Tmp landing",
-    "link": "https://timorpheus.github.io/portfolio/template_bootstrap/timurto_dev_landing/",
-    "description": "simple web item"
-  }
-
-
-
+    },
+    {
+      "id": 7,
+      "title": "Tmp landing",
+      "link": "https://timorpheus.github.io/portfolio/template_bootstrap/timurto_dev_landing/",
+      "description": "simple web item"
+    },
+    {
+      "id": 8,
+      "title": "axe effect",
+      "link": "https://timorpheus.github.io/portfolio/axe/app/",
+      "description": "Axe effect landing page"
+    },
+    {
+      "id": 9,
+      "title": "black / white template non responsive",
+      "link": "https://timorpheus.github.io/portfolio/BwTemplate/app/",
+      "description": "black white temlate with unusual bakcgrounds"
+    },
+    {
+      "id": 10,
+      "title": "nakitel test",
+      "link": "https://timorpheus.github.io/portfolio/nakitel-test/app/",
+      "description": "responsive test html/css task"
+    }
   ]
-
-
 }

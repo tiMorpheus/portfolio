@@ -1,0 +1,95 @@
+body {
+  padding: 20px;
+}
+ul{
+  list-style: none;
+  margin-top: 0;
+}
+
+
+.phones li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+.thumb {
+  float: left;
+  height: 100px;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 100px;
+}
+
+h1{
+  border-bottom: 1px solid black;
+}
+
+.phone{
+  background-color: #fff;
+  display: none;
+  float: left;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.phone:first-child{
+  display: block;
+}
+
+.phone-images{
+  background-color: #fff;
+  float: left;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.phone-thumbs{
+  margin: 0;
+}
+
+.phone-thumbs img{
+  padding: 1em;
+  width: 100px;
+  height: 100px;
+}
+
+.phone-thumbs li{
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+}
+
+.specs{
+
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.specs dt {
+  font-weight: bold;
+}
+
+.specs > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+.specs > li > span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
