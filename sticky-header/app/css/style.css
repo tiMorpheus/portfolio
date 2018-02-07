@@ -7,10 +7,7 @@ body {
   background: url("../img/bg.jpg") repeat-y, #dedede; }
 
 .sticky {
-  -webkit-position: sticky;
-  -moz-position: sticky;
-  -ms-position: sticky;
-  -o-position: sticky;
+  position: -webkit-sticky;
   position: sticky;
   top: 20px; }
 
@@ -27,7 +24,7 @@ body {
   border-radius: 10px; }
 
 header {
-  margin: 250px auto 350px;
+  margin: 250px auto 300px;
   max-width: 1000px;
   height: 45px;
   text-align: center;

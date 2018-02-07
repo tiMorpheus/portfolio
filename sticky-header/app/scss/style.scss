@@ -8,10 +8,7 @@ body{
 }
 
 .sticky{
-    -webkit-position: sticky;
-    -moz-position: sticky;
-    -ms-position: sticky;
-    -o-position: sticky;
+    position: -webkit-sticky;
     position: sticky;
     top: 20px;
 }
@@ -34,7 +31,7 @@ body{
 header{
 
 
-    margin: 250px auto 350px;
+    margin: 250px auto 300px;
 
     max-width:1000px;
     height: 45px;
