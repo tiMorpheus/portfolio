@@ -1,0 +1,11 @@
+{
+  "name": "luxury landing page",
+  "description": "description",
+  "version": "1.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "reset-css": "^2.2.1"
+  }
+}
