@@ -1,1 +1,6 @@
-stickybits('#demo');
+$(function() {
+    stickyHeaders.load($(".sticky"));
+});
+
+
+
