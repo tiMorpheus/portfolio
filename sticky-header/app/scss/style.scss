@@ -1,5 +1,5 @@
 body{
-    padding: 0 50px;
+    padding: 50px 10px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
@@ -10,58 +10,39 @@ body{
 .sticky{
     position: -webkit-sticky;
     position: sticky;
-    top: 20px;
+    top: 0;
 }
 
-.view-container{
-    max-width: 1000px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 50px 20px;
-    background-color: #EBEBEB;
-
+h1#demo{
+    padding: 1px 20px;
+    color: white;
+    background-color: red;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+div{
+
+    h1{
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #dedede;
+    }
+
+    p{
+        padding: 10px;
+    }
+
+    margin-bottom: 20px;
+
+    background-color: #dedede;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
     border-radius: 10px;
 }
-
-
-header{
-
-
-    margin: 250px auto 300px;
-
-    max-width:1000px;
-    height: 45px;
-
-    text-align: center;
-    font-size: 30px;
-
-}
-
-section{
-    
-    h1{
-        padding: 50px;
-        background: #EBEBEB;
-    }
-}
-
-footer {
-    text-align: center;
-    margin: 215px 0;
-
-    a{
-        text-decoration: none;
-        color: #353535;
-
-        &:hover{
-            color: black;
-        }
-    }
-
-}
-
 

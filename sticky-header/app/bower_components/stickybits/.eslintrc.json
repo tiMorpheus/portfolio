@@ -1,0 +1,15 @@
+{
+  "extends": [ "standard"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "indent": 1,
+    "semi": [2, "never"]
+  }
+}
